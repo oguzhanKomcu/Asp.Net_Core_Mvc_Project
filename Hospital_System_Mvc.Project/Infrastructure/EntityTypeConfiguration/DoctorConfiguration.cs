@@ -15,7 +15,6 @@ namespace Hospital_System_Mvc.Project.Infrastructure.EntityTypeConfiguration
             builder.Property(x => x.Age).IsRequired();
             builder.Property(x => x.Specialty).IsRequired();
             builder.Property(x => x.Phone).IsRequired();
-            builder.Property(x => x.Deparment).IsRequired();
 
 
 

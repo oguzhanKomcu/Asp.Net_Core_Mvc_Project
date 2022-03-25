@@ -22,7 +22,7 @@ namespace Hospital_System_Mvc.Project.Infrastructure.EntityTypeConfiguration
             builder.Property(x => x.Date).IsRequired();
             builder.Property(x => x.Time).IsRequired();
             builder.Property(x => x.Reason).IsRequired();
-            builder.Property(x => x.Prescriptions).IsRequired(false);
+            builder.Property(x => x.Prescription).IsRequired(false);
 
 
 

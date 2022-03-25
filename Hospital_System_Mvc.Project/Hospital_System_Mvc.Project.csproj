@@ -15,7 +15,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Infrastructure\Utilities\" />
     <Folder Include="Models\DTOs\" />
     <Folder Include="Models\VMs\" />
   </ItemGroup>
