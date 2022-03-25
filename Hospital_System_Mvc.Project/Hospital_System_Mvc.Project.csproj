@@ -15,9 +15,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Infrastructure\EntityTypeConfiguration\" />
+    <Folder Include="Infrastructure\Utilities\" />
     <Folder Include="Models\DTOs\" />
     <Folder Include="Models\VMs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>
