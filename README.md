@@ -23,5 +23,18 @@ Frameworks let you deal with the business logic only, and take care of all the o
 
 ### What are the advantages of Dependency Injection application?
 
-Instead of using the dependencies directly, it is aimed to minimize the dependency in the system by exporting these objects from outside. Thus, we are protected from changes on the dependency class.
-While it simplifies the writing of unit tests, it also increases the accuracy. One of the most important issues in software development is that the components in the software are "loosely coupled". It is one of the important techniques that can provide this in Dependency Injection. Thus, independent classes can be tested on their own.
+- Instead of using the dependencies directly, it is aimed to minimize the dependency in the system by exporting these objects from outside. Thus, we are protected from changes on the dependency class.
+- While it simplifies the writing of unit tests, it also increases the accuracy. One of the most important issues in software development is that the components in the software are "loosely coupled". It is one of the important techniques that can provide this in Dependency Injection. Thus, independent classes can be tested on their own.
+
+## Types of Dependency Injection
+
+As you can see above, the injector class injects the service (dependency) into the client (dependent). The Injector class generally injects dependencies in three ways: through a constructor, through a property, or through a method.
+
+## Constructor Injection
+- In constructor injection, the injector service (dependency) is provided through the client class constructor.
+
+## Property Injection
+- In property injection (aka Setter Injection), the injector provides the dependency via a public property of the client class.
+
+## Method Injection
+- In this type of injection, the client class implements an interface that declares the method(s) to provide the dependency, and the injector uses that interface to provide the dependency to the client class.
