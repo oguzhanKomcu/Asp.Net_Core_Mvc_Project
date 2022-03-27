@@ -40,13 +40,13 @@ You can see about it here. [GitHub Pages](https://github.com/oguzhanKomcu/Asp.Ne
 
 As you can see above, the injector class injects the service (dependency) into the client (dependent). The Injector class generally injects dependencies in three ways: through a constructor, through a property, or through a method.
 
-## Constructor Injection
+### Constructor Injection
 - In constructor injection, the injector service (dependency) is provided through the client class constructor.
 
-## Property Injection
+### Property Injection
 - In property injection (aka Setter Injection), the injector provides the dependency via a public property of the client class.
 
-## Method Injection
+### Method Injection
 - In this type of injection, the client class implements an interface that declares the method(s) to provide the dependency, and the injector uses that interface to provide the dependency to the client class.
 
 ## IoC (Inversion Of Control)
