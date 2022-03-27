@@ -1,4 +1,4 @@
-# Asp.Net Core Mvc
+# Asp.Net Core 
 
 ASP.NET Core is an open source software development platform developed by Microsoft. Introduced in 2016, the technology is one of the best alternatives for developing ASP.NET based applications.
 
