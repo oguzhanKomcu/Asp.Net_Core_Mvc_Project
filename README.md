@@ -85,9 +85,10 @@ ASP.NET Core, Razor Pages is a lightweight and flexible page-oriented framework 
 
 You don't need to have MVC knowledge to use Razor Pages. This infrastructure is very similar to MVVM (Model-View-ViewModel) models and provides a simpler development experience by isolating the responsibilities of each component. Razor Pages is ideal for simple applications that do basic data entry.
 
-You can see about it here. [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Singleton_Design_Pattern1)
+You can see about it here. [GitHub Pages](https://github.com/oguzhanKomcu/Asp.Net_Core_Mvc_Project/blob/master/Hospital_Appointment_System_MVC_Project/Views/Patient/Details.cshtml)
 
 ## Simple Coding Components
 
-HTML is considered the most preferred language for creating various web pages. Along with HTML, CSS and JavaScript are used on a very large scale. You can use HTML elements to create user interfaces with Tag Helper in ASP.NET Core. This allows you to get very successful interfaces with a very simple coding.  [GitHub Pages](https://github.com/oguzhanKomcu/Design_Patterns/tree/master/Creational_Patterns/Singleton_Design_Pattern1)
+HTML is considered the most preferred language for creating various web pages. Along with HTML, CSS and JavaScript are used on a very large scale. You can use HTML elements to create user interfaces with Tag Helper in ASP.NET Core. This allows you to get very successful interfaces with a very simple coding.  
+You can see about it here. [GitHub Pages](https://github.com/oguzhanKomcu/Asp.Net_Core_Mvc_Project/blob/master/Hospital_Appointment_System_MVC_Project/Views/Patient/Create.cshtml)
 
