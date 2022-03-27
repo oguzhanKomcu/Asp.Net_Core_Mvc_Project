@@ -90,5 +90,6 @@ You can see about it here. [GitHub Pages](https://github.com/oguzhanKomcu/Asp.Ne
 ## Simple Coding Components
 
 HTML is considered the most preferred language for creating various web pages. Along with HTML, CSS and JavaScript are used on a very large scale. You can use HTML elements to create user interfaces with Tag Helper in ASP.NET Core. This allows you to get very successful interfaces with a very simple coding.  
+
 You can see about it here. [GitHub Pages](https://github.com/oguzhanKomcu/Asp.Net_Core_Mvc_Project/blob/master/Hospital_Appointment_System_MVC_Project/Views/Patient/Create.cshtml)
 
