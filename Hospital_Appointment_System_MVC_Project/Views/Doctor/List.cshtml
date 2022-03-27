@@ -1,0 +1,66 @@
+﻿@model IEnumerable<DoctorListVM>
+@{
+    ViewData["Title"] = "List";
+}
+
+<div class="conteiner mt-2">
+    <div class="rom">
+        <div class = "col-sm-10">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">List Of Patient</h5>
+
+                </div>
+                <div class="card-boy">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Specialty</th>
+                                <th>Age</th>
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach(var patient in Model)
+                            {
+                                <tr>
+                                    <td>@patient.ID</td>
+                                    <td>@patient.FirstName</td>
+                                    <td>@patient.LastName</td>
+                                    <td>@patient.Specialty</td>
+                                    <td>@patient.Age</td>
+
+                                    <td>
+                                        <a asp-action="Details" asp-route-id = "@patient.ID" class="btn btn-sm btn-success">Details</a>
+                                    </td>
+                                    <td>
+                                        <a asp-action="Update" asp-route-id = "@patient.ID" class="btn btn-sm btn-warning">Update</a>
+
+                                    </td>
+                                     <td>
+                                        <a asp-action="Delete" asp-route-id = "@patient.ID" class="btn btn-sm btn-danger">Delete</a>
+
+                                    </td>
+
+                                </tr>
+
+                            }
+
+                        </tbody>
+
+                    </table>
+                </div>
+                <div class="card-footer">
+                    <a asp-action="Create" class="btn-primary bnt-sm float-end">Create Patient</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>

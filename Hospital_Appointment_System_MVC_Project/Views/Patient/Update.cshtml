@@ -1,0 +1,66 @@
+﻿@model PatientUpdateDTO
+
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update</h1>
+
+
+
+<div class="conteiner mt-2">
+    <div class="row">
+        <div class="col-sm-6">  
+            <div class ="card"> 
+                <div class="card-header">
+
+                    <h5 class="card-title">Update User</h5> 
+                </div>
+                <div class="card-body">
+                    <form asp-action="Update"> 
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class = "form-group"> 
+                            <input asp-for="LastName" class="form-control" placeholder="First Name" />
+                            <span asp-validation-for ="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class = "form-group"> 
+                            <label asp-for="LastName"></label>
+                            <input asp-for="LastName" class="form-control" placeholder="Last Name" />
+                            <span asp-validation-for ="LastName" class="text-danger"></span>
+                        </div>
+                         <div class = "form-group">
+                            <label asp-for="Identity_No"></label>
+                            <input asp-for="Identity_No" class="form-control" placeholder="Identity No" />
+                            <span asp-validation-for ="Identity_No" class="text-danger"></span>
+                        </div>
+                         <div class = "form-group">
+                            <label asp-for="Age"></label>
+                            <input asp-for="Age" class="form-control" placeholder="Age" />
+                            <span asp-validation-for ="Age" class="text-danger"></span>
+                        </div>
+                         <div class = "form-group"> 
+                            <label asp-for="Phone"></label>
+                            <input asp-for="Phone" class="form-control" placeholder="Phone" />
+                            <span asp-validation-for ="Phone" class="text-danger"></span>
+                        </div>
+                         <div class = "form-group">
+                            <label asp-for="Address"></label>
+                            <input asp-for="Address" class="form-control" placeholder="Address" />
+                            <span asp-validation-for ="Address" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn-success btn-sm float-end" value="Update" />
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <a asp-action="List" class = "btn-primary btn-sm float-end">Back To list</a> <!--tek bir alan oldugu için sadece list yaazdık yksa normalde controller isminide yazmak gerekirdi.-->
+                </div>
+            </div>
+
+        </div>
+  
+    </div>
+
+</div>

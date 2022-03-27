@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital_System_Mvc.Project", "Hospital_System_Mvc.Project\Hospital_System_Mvc.Project.csproj", "{4C175FE2-E71A-4BB4-97BF-B9D5993BE43F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital_Appointment_System_MVC_Project", "Hospital_Appointment_System_MVC_Project\Hospital_Appointment_System_MVC_Project.csproj", "{1A6F8E11-D538-4BA7-86BB-F402948B2092}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4C175FE2-E71A-4BB4-97BF-B9D5993BE43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C175FE2-E71A-4BB4-97BF-B9D5993BE43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C175FE2-E71A-4BB4-97BF-B9D5993BE43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C175FE2-E71A-4BB4-97BF-B9D5993BE43F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6F8E11-D538-4BA7-86BB-F402948B2092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6F8E11-D538-4BA7-86BB-F402948B2092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6F8E11-D538-4BA7-86BB-F402948B2092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6F8E11-D538-4BA7-86BB-F402948B2092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
