@@ -1,0 +1,54 @@
+﻿@model List<AppointmentListVM>
+@{
+    ViewData["Title"] = "List";
+}
+
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">List of Address</h5>
+                </div>
+                <div class="card-body">
+                   <table class="table table-hover">
+                       <thead>
+                           <tr>
+                               <th>Id</th>
+                               <th>Patient FullName</th>
+                               <th>Doctor FullName</th>
+                               <th>Date</th>
+                               <th>Time</th>
+                               <th>Reason</th>
+                               <th>Prescription</th>
+                           </tr>
+                       </thead>
+                       <tbody>
+                            @foreach (var appointment in Model)
+                            {
+                                <tr>
+                                    <td>@appointment.Id</td>
+                                    <td>@appointment.Patient_FullName</td>
+                                    <td>@appointment.Doctor_FullName</td>
+                                    <td>@appointment.Date</td>
+                                    <td>@appointment.Time</td>
+                                    <td>@appointment.Reason</td>
+                                    <td>@appointment.Prescription</td>
+                                    <td>
+                                        <a asp-action="Details" asp-route-id="@appointment.Id" class="btn btn-sm btn-info">Details</a>
+                                    </td>
+                                    <td>
+                                        <a asp-action="Delete" asp-route-id="@appointment.Id" class="btn btn-sm btn-danger">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                   </table>
+                </div>
+                <div class="card-footer">
+                    <a asp-action="Create" class="btn-primary btn-sm float-end">Create User</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -2,6 +2,7 @@
 using Hospital_Appointment_System_MVC_Project.Infrastructure.SeedData;
 using Hospital_Appointment_System_MVC_Project.Infrastructure.Utilities;
 using Hospital_Appointment_System_MVC_Project.Models.Entities;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore;
 
 namespace Hospital_Appointment_System_MVC_Project.Infrastructure
@@ -75,5 +76,6 @@ namespace Hospital_Appointment_System_MVC_Project.Infrastructure
             return base.SaveChanges();
 
         }
+ 
     }
 }
