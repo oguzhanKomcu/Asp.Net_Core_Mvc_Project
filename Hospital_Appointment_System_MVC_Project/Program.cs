@@ -2,6 +2,7 @@
 using Hospital_Appointment_System_MVC_Project.Infrastructure;
 using Hospital_Appointment_System_MVC_Project.Infrastructure.EntityTypeConfiguration.Repositories.Concrete;
 using Hospital_Appointment_System_MVC_Project.Infrastructure.EntityTypeConfiguration.Repositories.Interface;
+using Hospital_Appointment_System_MVC_Project.Infrastructure.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,8 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer
 builder.Services.AddScoped<IPatientRepo, PatientRepo>();
 builder.Services.AddScoped<IAppointmentRepo, AppointmentRepo>();
 builder.Services.AddScoped<IDoctorRepo, DoctorRepo>();
+builder.Services.AddScoped<IPatientService, PatientService>();
+builder.Services.AddScoped<IDoctorService, DoctorService>();
 
 
 
