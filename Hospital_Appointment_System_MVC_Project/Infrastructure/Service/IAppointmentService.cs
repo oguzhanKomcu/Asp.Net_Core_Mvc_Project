@@ -12,7 +12,7 @@ namespace Hospital_Appointment_System_MVC_Project.Infrastructure.Service
         AppointmentCreateDTO GetPatientDoctor();
 
 
-        public List<Appointment> Gets();
+        List<Appointment> Gets();
 
         AppointmentUpdateDTO GetById(int id);
 

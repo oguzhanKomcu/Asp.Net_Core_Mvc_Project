@@ -1,4 +1,5 @@
-﻿@model List<AppointmentListVM>
+﻿
+@model List<Appointment>
 @{
     ViewData["Title"] = "List";
 }
@@ -28,8 +29,8 @@
                             {
                                 <tr>
                                     <td>@appointment.Id</td>
-                                    <td>@appointment.Patient_FullName</td>
-                                    <td>@appointment.Doctor_FullName</td>
+                                    <td>@appointment.Patient_Id</td>
+                                    <td>@appointment.Doctor_Id</td>
                                     <td>@appointment.Date</td>
                                     <td>@appointment.Time</td>
                                     <td>@appointment.Reason</td>
